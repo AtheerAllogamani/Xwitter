@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="/js/validation.js" defer></script>
+</head>
+<body>
+    
+    <h1>Signup</h1>
+    
+    <form action="process-signup.php" method="post" id="signup" novalidate>
+        <div class="form">
+            <div>
+                <input type="text" id="name" name="name" placeholder="name">
+            </div>
+            
+            <div>
+                <input type="email" id="email" name="email" placeholder="email">
+            </div>
+            
+            <div>
+                <input type="password" id="password" name="password" placeholder="padssword">
+            </div>
+            
+            <div>
+                <input type="password" id="password_confirmation" name="password_confirmation" password="password again">
+            </div>
+            
+            <button>Sign up</button>
+        </div>
+    </form>
+    
+</body>
+</html>

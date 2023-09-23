@@ -1,0 +1,78 @@
+body {
+    background-color: #e8f4fa;
+    }
+
+
+.container {
+    display: flex;
+    text-align: center;
+    background-color: #05314c;
+    margin: 0 auto;
+    }
+
+a {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+p {
+    padding-left: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.form {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 7px;
+    border: 1px solid #05314c;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+
+#profilePic {
+    border: 5px solid #05314c;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+a .profileContiner{
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+strong {
+    color: #05314c;
+}
+
+
+button{
+    color: #05314c;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.home{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    background-color: #05314c;
+    border-radius: 25px;
+    width: 30%;
+}
+
