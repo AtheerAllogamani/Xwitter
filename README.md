@@ -1,4 +1,5 @@
 # Xwitter
+![Capture](Capture.PNG)
 Xwitter is a social media website created as a PHP learning project. The name is a combination of "X" and the old name "Twitter", as it aims to provide a simpler imitation of the platform.
 
 # How to Get Started
@@ -9,7 +10,7 @@ Xwitter is a social media website created as a PHP learning project. The name is
 5. Launch the website and start using Xwitter.
 
 # Future work
-Here are some planned improvements and features for Xwitter:
+When I have more solid foundations, I want to implement the following features and enhancements for Xwitter:
 - Implement tweets as an array.
 - Add the ability to delete tweets.
 - Enable users to view tweets from other users.
