@@ -1,5 +1,5 @@
 # Xwitter
-![xwitter_vid](xwitter_vid.mp4)
+[![xwitter_vid](xwitter_vid.mp4)](https://github.com/AtheerAllogamani/TheZombieChild/assets/100247724/d54b45ff-f8e1-4af0-8015-9750b180fd16)
 Xwitter is a social media website created as a PHP learning project. The name is a combination of "X" and the old name "Twitter", as it aims to provide a simpler imitation of the platform.
 
 # How to Get Started
