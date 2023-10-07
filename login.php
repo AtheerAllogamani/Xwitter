@@ -41,29 +41,30 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Login</h1>
+    <div class="home">
+        <h1 style="color: aliceblue;">Login</h1>
 
-    <?php if ($is_invalid): ?>
-        <em>Invalid login</em>
-    <?php endif; ?>
-    <style>
-    input{
-        margin-bottom: 7px;
-        border: 1px solid #05314c;
-        border-radius: 10px;
-        height: 30px;
-        width: 300px;
-    }
-</style>
-    <div class="form">
-        <form method="post">
-            <input type="email" name="email" id="email" placeholder="email"
-                value="<?= htmlspecialchars($_POST["email"] ?? "") ?>"><br>
-            <input type="password" name="password" id="password" placeholder="password"><br>
-            
-            <button>Log in</button>
-        </form>
+        <?php if ($is_invalid): ?>
+            <em>Invalid login</em>
+        <?php endif; ?>
+        <style>
+        input{
+            margin-bottom: 7px;
+            border: 1px solid #05314c;
+            border-radius: 10px;
+            height: 30px;
+            width: 300px;
+        }
+    </style>
+        <div class="form">
+            <form method="post">
+                <input type="email" name="email" id="email" placeholder="email"
+                    value="<?= htmlspecialchars($_POST["email"] ?? "") ?>"><br>
+                <input type="password" name="password" id="password" placeholder="password"><br>
+                
+                <button>Log in</button>
+            </form>
+        </div>
     </div>
-    
 </body>
 </html>
