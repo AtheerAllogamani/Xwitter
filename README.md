@@ -1,5 +1,5 @@
 # Xwitter
-![Capture](Capture.PNG)
+![xwitter_vid](xwitter_vid.mp4)
 Xwitter is a social media website created as a PHP learning project. The name is a combination of "X" and the old name "Twitter", as it aims to provide a simpler imitation of the platform.
 
 # How to Get Started
