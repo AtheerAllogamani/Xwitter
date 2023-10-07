@@ -18,6 +18,8 @@ if (isset($_SESSION["user_id"])) {
 
 if (isset($_POST["submit"])) {
     $status = 'error';
+    $image = $results_row['photo'];
+    if (empty($image)) $image = "/img/default-profile-pic.png";
     if (!empty($_FILES["image"]["name"])) {
         $fileName = basename($_FILES["image"]["name"]);
         $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
@@ -31,7 +33,7 @@ if (isset($_POST["submit"])) {
 
             if ($update) {
                 $status = 'success';
-                header("Location: profile.php");
+                header("Location: main.php");
             } else {
                 $statusMsg = "File upload failed, please try again.";
             }
@@ -67,6 +69,14 @@ $updated = $mysqli->query("UPDATE user SET name='$user_name', email='$user_email
 </head>
 <body>
     <style>
+        .container {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        background-color: #05314c;
+        margin: 0 auto;
+        }
+        
         .upper{
             margin-top: 50px;
             margin-right: 3%;
@@ -82,9 +92,10 @@ $updated = $mysqli->query("UPDATE user SET name='$user_name', email='$user_email
             <?php endif; ?>
         </div>
     </div>
-    <div class="form">
+    
+    <div class="home" style="margin-top: 5%; padding: 1%; color: aliceblue;">
         <form action="" method="POST" enctype="multipart/form-data">
-            <img src="<?php echo isset($user['profile_pic']) ? 'data:image/jpeg;base64,' . base64_encode($user['profile_pic']) : ''; ?>" id="profilePic">          
+            <img src="<?php echo isset($user['profile_pic']) ? 'data:image/jpeg;base64,' . base64_encode($user['profile_pic']) : ''; ?>"  style="border: 5px solid aliceblue;" id="profilePic">          
             <div>
             <input type="file" id="fileInput" name="image" accept="image/*" onchange="changeProfilePic(event)">
             </div>
