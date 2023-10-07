@@ -1,5 +1,4 @@
 # Xwitter
-[![xwitter_vid](xwitter_vid.mp4)](https://github.com/AtheerAllogamani/TheZombieChild/assets/100247724/d54b45ff-f8e1-4af0-8015-9750b180fd16)
 Xwitter is a social media website created as a PHP learning project. The name is a combination of "X" and the old name "Twitter", as it aims to provide a simpler imitation of the platform.
 
 # How to Get Started
@@ -9,11 +8,15 @@ Xwitter is a social media website created as a PHP learning project. The name is
 4. Start the Apache and MySQL services in XAMPP.
 5. Launch the website and start using Xwitter.
 
+# Preview
+https://github.com/AtheerAllogamani/Xwitter/assets/100247724/dbb10118-4a3c-4938-b527-e7dc37c5024d
+
 # Future work
 When I have more solid foundations, I want to implement the following features and enhancements for Xwitter:
-- Implement tweets as an array.
+- Default image.
+- ~~Implemen multiple tweets~~.
 - Add the ability to delete tweets.
-- Enable users to view tweets from other users.
+- ~~Enable users to view tweets from other users~~.
 - Enhance the design for a more visually appealing user interface.
 Feel free to contribute to the project by suggesting new features or submitting pull requests. Your feedback and contributions are greatly appreciated!
 
